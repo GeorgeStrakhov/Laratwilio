@@ -3,7 +3,7 @@
 * calls or anything else other than sending sms messages is not currently supported (pull requests welcome)
 
 ## Installation
-1. add "twilio/laratwilio": "dev-master" to coposer require
+1. add `"twilio/laratwilio": "dev-master"` to coposer require
 2. run `composer update` and `composer install`
 3. add Laratwilio to the list of providers. In config/app.php add the following line to the `providers` array:
 	`'Twilio\Laratwilio\LaratwilioServiceProvider'`
