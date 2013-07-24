@@ -1,12 +1,15 @@
 {
     "name": "twilio/laratwilio",
     "description": "Twilio api wrapper for Laravel4",
+    "type": "library",
+    "keywords": ["laravel","twilio","sms"],
     "authors": [
         {
             "name": "George Strakhov",
             "email": "george.strakhov@gmail.com"
         }
     ],
+    "homepage": "http://github.com/GeorgeStrakhov/Laratwilio",
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
