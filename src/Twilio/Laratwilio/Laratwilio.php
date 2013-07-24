@@ -16,8 +16,9 @@ class Laratwilio {
 	public function send($data)
 	{
 		$client = new \Services_Twilio($this->config['accountSid'], $this->config['authToken']);
+		$fromNumber = (isset($data['from'])) ? $data['from'] : $this->config['fromNumber'];
 		$message = $client->account->sms_messages->create(
-			($data['from']) ? $data['from'] : $this->config['fromNumber'], // From a valid Twilio number
+			$fromNumber, // From a valid Twilio number
 			$data['to'], // Text this number
 			$data['text'] //what's in
 		);
