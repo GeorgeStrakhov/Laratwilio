@@ -1,0 +1,22 @@
+{
+    "name": "twilio/laratwilio",
+    "description": "Twilio api wrapper for Laravel4",
+    "authors": [
+        {
+            "name": "George Strakhov",
+            "email": "george.strakhov@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "twilio/sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Twilio\\Laratwilio": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
