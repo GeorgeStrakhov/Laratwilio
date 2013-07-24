@@ -15,7 +15,7 @@
 
 ## Usage
 Anywhere in your application when you need to send an sms message, just do:
-    `Sms::send(array('to'=>'+12345678', 'text'=>'hello world'));
+    `Sms::send(array('to'=>'+12345678', 'text'=>'hello world'));`
 
 ## Disclaimer
 This is my first package and I'm very new to all this.
