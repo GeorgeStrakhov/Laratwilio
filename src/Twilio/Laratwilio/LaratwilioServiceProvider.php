@@ -1,7 +1,8 @@
 <?php namespace Twilio\Laratwilio;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Config;
+// use Illuminate\Support\Facades\Config;
+use Config;
 
 class LaratwilioServiceProvider extends ServiceProvider {
 
